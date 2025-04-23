@@ -56,10 +56,7 @@ class QuoteWidget : GlanceAppWidget() {
 
                 Spacer(modifier = GlanceModifier.height(20.dp))
 
-                FilledButton(
-                    text = "Refresh 🔄",
-                    onClick = actionRunCallback<RefreshQuoteAction>()
-                )
+
             }
         }
     }
